@@ -1,7 +1,7 @@
 {
     "name": "lexxyit/youtube-transfer",
-    "description": "Parsing the .env file to add new variables to the global environment.",
-    "keywords": ["php", "env", "dotenv", "phpdotenv", "environment", "config", "configuration", "variables"],
+    "description": "Transfer video from YouTube to VK or RuTube.",
+    "keywords": ["php", "api", "youtube", "vk", "rutube"],
     "homepage": "https://github.com/LeXxyIT",
     "type": "library",
     "license": "MIT",
@@ -17,6 +17,7 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0 || >=8.0",
         "lexxyit/env-parser": "dev-master",
