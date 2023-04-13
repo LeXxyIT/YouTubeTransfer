@@ -17,12 +17,8 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0 || >=8.0",
-        "lexxyit/env-parser": "dev-master",
-        "google/apiclient": "^2.12.1",
-        "vkcom/vk-php-sdk": "^5.101"
+        "php": ">=7.0 || >=8.0"
     },
     "require-dev": {},
     "version": "1.0.0"

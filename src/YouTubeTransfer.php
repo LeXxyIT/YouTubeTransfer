@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace LeXxyIT\YouTubeTransfer;
 
-use Exception;
-use LeXxyIT\EnvParser;
+//use Exception;
+//use LeXxyIT\EnvParser;
 
 class YouTubeTransfer
 {
@@ -16,10 +16,11 @@ class YouTubeTransfer
     public function __construct(string $video_id)
     {
         $this->video_id = $video_id;
+        return $this->video_id;
 
-        EnvParser::load(__DIR__ . '/../.env');
+        /*EnvParser::load(__DIR__ . '/../.env');
 
-        /*$this->getBinary();
+        $this->getBinary();
         $this->getVideoData();
         $this->downloadVideo();*/
     }
