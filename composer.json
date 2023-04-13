@@ -1,0 +1,28 @@
+{
+    "name": "lexxyit/youtube-transfer",
+    "description": "Parsing the .env file to add new variables to the global environment.",
+    "keywords": ["php", "env", "dotenv", "phpdotenv", "environment", "config", "configuration", "variables"],
+    "homepage": "https://github.com/LeXxyIT",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LeXxyIT\\YoutubeTransfer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LeXxyIT",
+            "email": "lexxywy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0 || >=8.0",
+        "lexxyit/env-parser": "dev-master",
+        "google/apiclient": "^2.12.1",
+        "vkcom/vk-php-sdk": "^5.101"
+    },
+    "require-dev": {},
+    "version": "1.0.0"
+}

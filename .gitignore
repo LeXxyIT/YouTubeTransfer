@@ -1,0 +1,12 @@
+.git
+.idea
+.vscode
+.env
+
+libs
+media
+tests
+vendor
+
+package-lock.json
+composer.lock
