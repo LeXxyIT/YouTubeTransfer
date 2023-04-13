@@ -17,7 +17,6 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0 || >=8.0",
         "lexxyit/env-parser": "dev-master",
