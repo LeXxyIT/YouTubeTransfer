@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace LeXxyIT\YouTubeTransfer;
+namespace LeXxyIT\YoutubeTransfer;
 
 //use Exception;
 //use LeXxyIT\EnvParser;
 
-class YouTubeTransfer
+class Transfer
 {
     public $video_id = null;
     private $binary = null;
