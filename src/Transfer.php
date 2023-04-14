@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace LeXxyIT\YoutubeTransfer;
 
-//use Exception;
+use Exception;
 //use LeXxyIT\EnvParser;
 
 class Transfer
